@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HK AI Events</title>
+</head>
+<body>
+  <h1>Hong Kong AI Events</h1>
+  <div id="events"></div>
+
+  <script>
+    fetch('events.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("events");
+        data.events.forEach(e => {
+          const div = document.createElement("div");
+          div.innerHTML = `
+            <h3>${e.title}</h3>
+            <p>${e.start_time}</p>
+            <a href="${e.url}" target="_blank">Details</a>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
+</body>
+</html>
