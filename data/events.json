@@ -1,13 +1,156 @@
 {
-  "generated_at": "2026-03-12T02:34:12.194330Z",
+  "generated_at": "2026-04-30T02:35:27.669809Z",
   "events": [
     {
-      "id": "e3db5f9f856ec83e367bfb7caaba0259",
-      "title": "Hong KongNext: Mar 24",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org",
+      "id": "c05fdc44cc21890eee3beca76ba4ce93",
+      "title": "奇瑞香港創新中心進駐科學園(Content available in Chinese only)",
+      "start_time": "24 Apr 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Chery-Hong-Kong-Innovation-Centre-Lands-in-Science-Park",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "93f7a37957c4929c256d47aaec686403",
+      "title": "AilsynBio and Dong-E-E-Jiao Sign Project Cooperation Agreement",
+      "start_time": "10 Apr 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/AilsynBio-and-Dong-E-E-Jiao-Sign-Project-Cooperation-Agreement",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "6331dd9beb445c78a11df1a8af234a02",
+      "title": "HKSTP Parades the Power of Partnership Connecting Intelligence and Industries with AI and Robotics",
+      "start_time": "25 Mar 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/connected-intelligence",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "6d42aea4a14ba343c95a11fb00f99e02",
+      "title": "香港科技園公司與越秀集團及香港科技大學簽署「穗港聯動科創平台」合作備忘錄 (Content available in Chinese only)",
+      "start_time": "18 Mar 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-HKUST-Yuexiu-MoU-signing",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "daebb76fe08be7acda9512cdebf69c8c",
+      "title": "HKSTP Career Fair 2026 Rallies Hong Kong to \"Reimagine AI+\"",
+      "start_time": "17 Mar 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-career-fair-2026-reimagine-ai-plus",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "0694747e702ffc981abc01e469f8b9dd",
+      "title": "科技園公司夥拍全球生命科技領先企業思拓凡（Content available in Chinese only）",
+      "start_time": "05 Mar 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Cytiva-Day",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "8c3afb49ea7a69addfd7fd34297c9405",
+      "title": "HKSTP Hosts Inaugural AI for Empowering Learning and Teaching Funding Programme Seminar",
+      "start_time": "28 Jan 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-hosts-inaugural-ai-for-empowering-learning-and-teaching-funding-programme-seminar",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "a3f02ed8458108ae929ad249e6e2127c",
+      "title": "2026 WAIC UP! Global Summit Makes Hong Kong Debut HKSTP As Exclusive Strategic Partner",
+      "start_time": "16 Jan 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/waic-up-2026",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "fc066f5aea70a06d7daafb019fb37778",
+      "title": "HKSTP Congratulates Park Company Insilico Medicine on Successful Listing on HKEX Harnessing AI to Accelerate Drug Discovery and Empower Human Health",
+      "start_time": "30 Dec 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-congratulates-park-company-insilico-medicine-on-successful-listing-on-hkex",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "298725ddc54202d774c3399afb94fbf2",
+      "title": "HKSTP Makes Strategic Investment in Singapore Technology Company Vizzio;Forges Innovation Pact to Power Next-Generation AI and Smart City",
+      "start_time": "09 Dec 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp_makes_strategic_investment_in_singapore_technology_company_vizzio",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "3352d6d9edf2fde0d8c533bc3ec49a6f",
+      "title": "HKSTP Extends Condolences and Support to People Affected by Tai Po Fire Incident",
+      "start_time": "27 Nov 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-extends-condolences-and-support-to-people-affected-by-tai-po-fire-incident",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "961bd829e1e4d1b4a60c8b0e1637acfe",
+      "title": "HKSTPs AI Unicorn SmartMore Claimed the Highest Honour at the Hong Kong ICT Awards 2025 Science Park Community Secures a Total of 31 Awards",
+      "start_time": "22 Nov 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp_unicorn_smartmore_claimed_the_highest_honour_at_the_hkict_awards_2025",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c7affbaeceb04de4e343b538247e92f0",
+      "title": "HKSTP Showcases Innovation Strength with 13 Park Companies at the China Hi-Tech Fair",
+      "start_time": "14 Nov 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-leads-13-park-companies-to-CHTF-2025",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "940e90125eeda251c40ed6cb4502ed8b",
+      "title": "HKSTP Co-hosts Dongguan  Hong Kong Innovation and Technology Acceleration Exchange Conference with Dongguan Science and Technology Bureau and Binhaiwan Bay Area",
+      "start_time": "31 Oct 2025",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-co-hosts-dongguan-and-hong-kong-innovation-and-technology-acceleration-exchange-conference",
       "tags": [
         "AI"
       ]

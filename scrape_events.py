@@ -1,9 +1,10 @@
-import requests
-from bs4 import BeautifulSoup
 import json
-from datetime import datetime
 import hashlib
 import time
+from datetime import datetime, timezone
+
+import requests
+from bs4 import BeautifulSoup
 
 OUTPUT_FILE = "data/events.json"
 
@@ -16,57 +17,47 @@ AI_KEYWORDS = [
     "deep learning",
 ]
 
+
 def is_ai_event(title):
-    t = title.lower()
+    t = (title or "").lower()
     return any(k in t for k in AI_KEYWORDS)
 
-# ----------------------------
-# Utility
-# ----------------------------
 
-def make_id(source, title, date_str):
-    raw = f"{source}-{title}-{date_str}"
+def make_id(source, title, key):
+    raw = f"{source}-{title}-{key}"
     return hashlib.md5(raw.encode("utf-8")).hexdigest()
-
-
-def normalize_event(source, title, date_str, url, location):
-    return {
-        "id": make_id(source, title, date_str),
-        "title": title.strip(),
-        "start_time": date_str,
-        "location": location,
-        "source": source,
-        "url": url.strip(),
-        "tags": ["AI"]
-    }
 
 
 session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml",
-    "Referer": "https://www.google.com/"
+    "Accept": "text/html,application/xhtml+xml,application/json;q=0.9",
+    "Referer": "https://www.google.com/",
 })
 
+
 def safe_request(url):
+    """Return Response on success, None on failure (incl. bot-block 403/429)."""
     try:
         r = session.get(url, timeout=20)
-        r.raise_for_status()
         time.sleep(2)
-        return r.text
+        if r.status_code in (401, 403, 429):
+            print(f"[SKIP] {url} -> {r.status_code} (site blocks automated access)")
+            return None
+        r.raise_for_status()
+        return r
     except Exception as e:
         print(f"[ERROR] {url} -> {e}")
         return None
 
 
 # ----------------------------
-# HKSTP
+# HKSTP — public JSON API, robots.txt does not disallow it
 # ----------------------------
 
 def scrape_hkstp():
     events = []
-
     url = (
         "https://www.hkstp.org/api/List/NewsEventSearch"
         "?page=1&pageSize=50"
@@ -78,170 +69,117 @@ def scrape_hkstp():
         "&tabstyle=style1"
     )
 
+    r = safe_request(url)
+    if r is None:
+        return events
     try:
-        r = safe_request(url)
         data = r.json()
-    except Exception as e:
-        print("HKSTP API error:", e)
+    except ValueError as e:
+        print(f"[ERROR] HKSTP JSON parse: {e}")
         return events
 
-    # JSON structure usually:
-    # data["items"] or data["Results"]
-    items = data.get("Results") or data.get("items") or []
-
+    items = data.get("results") or data.get("Results") or data.get("items") or []
     for item in items:
-        title = item.get("Title") or item.get("title")
-        link = item.get("Url") or item.get("url")
-        date = item.get("Date") or item.get("date")
-
+        title = item.get("title") or item.get("Title")
+        link = item.get("url") or item.get("Url")
+        date = item.get("date") or item.get("Date")
         if not title or not link:
             continue
-
         if link.startswith("/"):
             link = "https://www.hkstp.org" + link
-
+        if not is_ai_event(title):
+            # HKSTP feed mixes all corporate news; keep only AI-relevant items
+            continue
         events.append({
             "id": make_id("HKSTP", title, link),
-            "title": title,
+            "title": title.strip(),
             "start_time": date,
             "location": "Hong Kong Science Park",
             "source": "HKSTP",
             "url": link,
-            "tags": ["AI"]
+            "tags": ["AI"],
         })
-
     return events
 
+
 # ----------------------------
-# Cyberport
+# Cyberport — SKIPPED
+# Cloudflare challenge returns 403 to non-browser clients. Treat as
+# "do not crawl" until/unless they publish a feed or grant access.
 # ----------------------------
 
 def scrape_cyberport():
-    events = []
+    print("[SKIP] Cyberport: site is behind Cloudflare bot protection")
+    return []
 
-    url = "https://www.cyberport.hk/en/news/events/"
-    html = safe_request(url)
-    if not html:
-        return events
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    cards = soup.select("li.flex.flex-col")
-
-    for card in cards:
-
-        title_tag = card.select_one("h3 a")
-        if not title_tag:
-            continue
-
-        title = title_tag.get_text(strip=True)
-        link = title_tag.get("href")
-
-        status = card.select_one("span.event-status")
-
-        start_date = None
-        if status:
-            start_date = status.get("data-startdate")
-
-        if not title or not link:
-            continue
-
-        events.append({
-            "id": make_id("Cyberport", title, link),
-            "title": title,
-            "start_time": start_date,
-            "location": "Cyberport",
-            "source": "Cyberport",
-            "url": link,
-            "tags": ["AI"]
-        })
-
-    return events
 
 # ----------------------------
-# HKPC
+# HKPC — SKIPPED
+# Imperva/Incapsula challenge returns 403 to non-browser clients.
 # ----------------------------
 
 def scrape_hkpc():
-    events = []
-
-    url = "https://www.hkpc.org/en/hkpc-spotlights/events/corporate-events"
-    html = safe_request(url)
-    if not html:
-        return events
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    table = soup.select_one("table.table-style")
-    if not table:
-        return events
-
-    rows = table.select("tbody tr")
-
-    for row in rows:
-        cols = row.find_all("td")
-        if len(cols) < 3:
-            continue
-
-        date_text = cols[0].get_text(strip=True)
-        title = cols[1].get_text(strip=True)
-
-        link_tag = cols[2].find("a")
-        if not link_tag:
-            continue
-
-        url = link_tag.get("href")
-
-        events.append({
-            "id": make_id("HKPC", title, url),
-            "title": title,
-            "start_time": date_text,
-            "location": "HKPC",
-            "source": "HKPC",
-            "url": url,
-            "tags": ["AI"]
-        })
-
-    return events
+    print("[SKIP] HKPC: site is behind Imperva bot protection")
+    return []
 
 
 # ----------------------------
-# AI Tinkerers (if HK chapter page exists)
+# AI Tinkerers — Hong Kong chapter
 # ----------------------------
 
 def scrape_ai_tinkerers():
     events = []
-
-    url = "https://aitinkerers.org"
-    html = safe_request(url)
-    if not html:
+    base = "https://hong-kong.aitinkerers.org"
+    r = safe_request(base + "/")
+    if r is None:
         return events
 
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(r.text, "html.parser")
 
-    for link in soup.select("a[href*='hong-kong']"):
-        title = link.get_text(strip=True)
-        href = link.get("href")
-
-        if not title:
-            title = "AI Tinkerers Hong Kong"
+    # Each upcoming meetup is rendered as an <a href=".../talks/rsvp_XXXX">
+    seen = set()
+    for a in soup.select("a[href*='/talks/rsvp_']"):
+        href = a.get("href", "")
+        if href in seen:
+            continue
+        seen.add(href)
 
         if href.startswith("/"):
-            href = "https://aitinkerers.org" + href
+            href = base + href
+
+        # Title: prefer a heading inside the card, else first non-empty text line
+        title = None
+        heading = a.find(["h1", "h2", "h3", "h4"])
+        if heading:
+            title = heading.get_text(" ", strip=True)
+        if not title:
+            text = a.get_text("\n", strip=True)
+            for line in text.splitlines():
+                line = line.strip()
+                if line and not line.lower().startswith(("rsvp", "next:")):
+                    title = line
+                    break
+        if not title:
+            title = "AI Tinkerers Hong Kong meetup"
+
+        # Date: look for an explicit datetime attribute inside the card
+        date_str = None
+        time_tag = a.find("time")
+        if time_tag:
+            date_str = time_tag.get("datetime") or time_tag.get_text(strip=True)
 
         events.append({
             "id": make_id("AI Tinkerers", title, href),
             "title": title,
-            "start_time": None,
+            "start_time": date_str,
             "location": "Hong Kong",
             "source": "AI Tinkerers",
             "url": href,
-            "tags": ["AI"]
+            "tags": ["AI"],
         })
 
-        break  # only one HK chapter
-
     return events
+
 
 # ----------------------------
 # Main
@@ -254,32 +192,30 @@ def main():
         scrape_hkstp,
         scrape_cyberport,
         scrape_hkpc,
-        scrape_ai_tinkerers
+        scrape_ai_tinkerers,
     ]
 
     for source_func in sources:
+        print(f"Running {source_func.__name__}...")
         try:
-            print(f"Running {source_func.__name__}...")
             all_events.extend(source_func())
         except Exception as e:
             print(f"[ERROR] {source_func.__name__} failed: {e}")
 
-    # remove duplicates
     unique = {}
     for e in all_events:
         unique[e["id"]] = e
-
     all_events = list(unique.values())
 
     output = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "events": all_events
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "events": all_events,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Saved {len(all_events)} events.")
+    print(f"Saved {len(all_events)} events to {OUTPUT_FILE}.")
 
 
 if __name__ == "__main__":
