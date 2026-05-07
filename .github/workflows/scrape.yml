@@ -5,6 +5,9 @@ on:
     - cron: "0 2 * * *"   # 每日 UTC 02:00
   workflow_dispatch:
 
+permissions:
+  contents: write  # This allows the action to push to the repository
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
