@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-04-30T02:35:27.669809Z",
+  "generated_at": "2026-05-08T04:54:33.050658Z",
   "events": [
+    {
+      "id": "8d44b5536a75fa8b62bd53c2a3a5d073",
+      "title": "Google Hong Kong and HKSTP Launch Second Cohort of Rocketing AI Co-incubation Program",
+      "start_time": "06 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/google-coincubation",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c935b756928b5a9aa2795771a5a8323a",
+      "title": "Lalamove展示「低空經濟監管沙盒」階段性成果(Content available in Chinese only)",
+      "start_time": "30 Apr 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Lalamove-Low-altitude-Economy-Regulatory-Sandbox-milestone-showcase",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "c05fdc44cc21890eee3beca76ba4ce93",
       "title": "奇瑞香港創新中心進駐科學園(Content available in Chinese only)",
@@ -140,17 +162,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-leads-13-park-companies-to-CHTF-2025",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "940e90125eeda251c40ed6cb4502ed8b",
-      "title": "HKSTP Co-hosts Dongguan  Hong Kong Innovation and Technology Acceleration Exchange Conference with Dongguan Science and Technology Bureau and Binhaiwan Bay Area",
-      "start_time": "31 Oct 2025",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-co-hosts-dongguan-and-hong-kong-innovation-and-technology-acceleration-exchange-conference",
       "tags": [
         "AI"
       ]
