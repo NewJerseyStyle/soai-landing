@@ -141,6 +141,45 @@
             overflow: hidden;
         }
 
+        /* Events list */
+        .events-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1px;
+            background: var(--border);
+        }
+        .event-card {
+            background: var(--bg);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .event-card:hover { background: #050505; transform: translateY(-3px); }
+        .event-card .event-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--muted);
+        }
+        .event-card .event-source {
+            background: var(--fg);
+            color: var(--bg);
+            padding: 2px 8px;
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+        .event-card h4 { font-size: 1.05rem; line-height: 1.35; font-weight: 500; }
+        .event-card .event-location { font-size: 0.8rem; color: var(--muted); }
+        .events-status { padding: 40px; text-align: center; color: var(--muted); font-size: 0.9rem; }
+        .events-generated { font-size: 11px; color: var(--muted); margin-top: 20px; letter-spacing: 1px; text-transform: uppercase; }
+
         /* Footer */
         footer {
             padding: 60px 0;
@@ -156,85 +195,11 @@
         /* Animations */
         .reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
         .reveal.active { opacity: 1; transform: translateY(0); }
- 
-        /* ── Poster images ── */
-        .poster-img {
-            cursor: zoom-in;
-            transition: opacity 0.2s ease, transform 0.2s ease;
-            display: block;
-            float: left;
-            max-width: 30%;
-            margin: 2rem;
-        }
-        .poster-img:hover {
-            opacity: 0.85;
-            transform: scale(1.03);
-        }
- 
-        /* ── Lightbox ── */
-        .lightbox-overlay {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.92);
-            z-index: 9999;
-            align-items: center;
-            justify-content: center;
-            cursor: zoom-out;
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-        }
-        .lightbox-overlay.open {
-            display: flex;
-            animation: lb-fade-in 0.22s ease-out forwards;
-        }
-        @keyframes lb-fade-in {
-            from { opacity: 0; }
-            to   { opacity: 1; }
-        }
- 
-        .lightbox-img {
-            max-width: 90vw;
-            max-height: 90vh;
-            object-fit: contain;
-            border: 1px solid rgba(255,255,255,0.12);
-            box-shadow: 0 0 100px rgba(0,0,0,0.9);
-            animation: lb-scale-in 0.22s ease-out forwards;
-            cursor: default;
-        }
-        @keyframes lb-scale-in {
-            from { transform: scale(0.92); opacity: 0; }
-            to   { transform: scale(1);    opacity: 1; }
-        }
- 
-        .lightbox-close {
-            position: fixed;
-            top: 22px;
-            right: 30px;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 26px;
-            line-height: 1;
-            color: rgba(255,255,255,0.5);
-            cursor: pointer;
-            transition: color 0.2s, background 0.2s;
-            border: 1px solid rgba(255,255,255,0.15);
-            user-select: none;
-            z-index: 10000;
-        }
-        .lightbox-close:hover {
-            color: #fff;
-            background: rgba(255,255,255,0.08);
-        }
 
         @media (max-width: 900px) {
             .hero { grid-template-columns: 1fr; }
             .strategy-grid { grid-template-columns: 1fr; }
             footer { flex-direction: column; align-items: flex-start; gap: 40px; }
-            .poster-img { max-width: 80%; float: none; }
         }
     </style>
 </head>
@@ -309,30 +274,10 @@
             <!-- Luma Events -->
             <section id="events" class="luma-section reveal">
                 <span class="section-label">Upcoming Events 活動預告</span>
-                <div class="luma-embed-container">
-                    <!-- Integrated Luma Calendar Widget -->
-                    <!-- <iframe 
-                        src="https://lu.ma/embed/calendar/usr-TuqOEEFaQdRYeFj?light=0" 
-                        width="100%" 
-                        height="600" 
-                        frameborder="0" 
-                        allowfullscreen="" 
-                        aria-hidden="false" 
-                        tabindex="0">
-                    </iframe> -->
-                    <img
-                        src="assets/poster_1.jpeg"
-                        alt="Event poster 1"
-                        class="poster-img"
-                        data-full="assets/poster_1.jpeg"
-                    >
-                    <img
-                        src="assets/poster_2.jpeg"
-                        alt="Event poster 2"
-                        class="poster-img"
-                        data-full="assets/poster_2.jpeg"
-                    >
+                <div id="events-list" class="events-list">
+                    <div class="events-status">Loading events…</div>
                 </div>
+                <p id="events-generated" class="events-generated"></p>
             </section>
         </main>
 
@@ -367,44 +312,65 @@
             });
         });
 
-        // ── Lightbox ───────────────────────────────────────────────────
-        const overlay    = document.getElementById('lightbox');
-        const lbImg      = document.getElementById('lightbox-img');
-        const lbClose    = document.getElementById('lightbox-close');
- 
-        function openLightbox(src, alt) {
-            lbImg.src = src;
-            lbImg.alt = alt || '';
-            overlay.classList.add('open');
-            document.body.style.overflow = 'hidden';
+        // ── Events list ────────────────────────────────────────────────
+        const eventsEl    = document.getElementById('events-list');
+        const generatedEl = document.getElementById('events-generated');
+
+        function escapeHtml(s) {
+            return String(s ?? '').replace(/[&<>"']/g, c => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[c]));
         }
- 
-        function closeLightbox() {
-            overlay.classList.remove('open');
-            document.body.style.overflow = '';
-            // reset src after transition so old image doesn't flash on next open
-            setTimeout(() => { lbImg.src = ''; }, 250);
+
+        function formatDate(raw) {
+            if (!raw) return 'Date TBA';
+            const d = new Date(raw);
+            if (!isNaN(d)) {
+                return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+            }
+            return raw;
         }
- 
-        // Open on poster click
-        document.querySelectorAll('.poster-img').forEach(img => {
-            img.addEventListener('click', () => {
-                openLightbox(img.dataset.full || img.src, img.alt);
+
+        function eventTimestamp(raw) {
+            if (!raw) return Infinity;
+            const d = new Date(raw);
+            return isNaN(d) ? Infinity : d.getTime();
+        }
+
+        fetch('data/events.json', { cache: 'no-cache' })
+            .then(res => {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
+            })
+            .then(data => {
+                const events = (data.events || []).slice().sort(
+                    (a, b) => eventTimestamp(a.start_time) - eventTimestamp(b.start_time)
+                );
+
+                if (!events.length) {
+                    eventsEl.innerHTML = '<div class="events-status">No upcoming events listed yet.</div>';
+                    return;
+                }
+
+                eventsEl.innerHTML = events.map(e => `
+                    <a class="event-card" href="${escapeHtml(e.url)}" target="_blank" rel="noopener">
+                        <div class="event-meta">
+                            <span class="event-source">${escapeHtml(e.source || 'Event')}</span>
+                            <span>${escapeHtml(formatDate(e.start_time))}</span>
+                        </div>
+                        <h4>${escapeHtml(e.title)}</h4>
+                        <span class="event-location">${escapeHtml(e.location || '')}</span>
+                    </a>
+                `).join('');
+
+                if (data.generated_at) {
+                    const g = new Date(data.generated_at);
+                    generatedEl.textContent = 'Updated ' + (isNaN(g) ? data.generated_at : g.toLocaleString());
+                }
+            })
+            .catch(err => {
+                eventsEl.innerHTML = '<div class="events-status">Could not load events (' + escapeHtml(err.message) + ').</div>';
             });
-        });
- 
-        // Close via button
-        lbClose.addEventListener('click', closeLightbox);
- 
-        // Close via backdrop click (but not the image itself)
-        overlay.addEventListener('click', (e) => {
-            if (e.target === overlay) closeLightbox();
-        });
- 
-        // Close via Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && overlay.classList.contains('open')) closeLightbox();
-        });
     </script>
 </body>
 </html>
