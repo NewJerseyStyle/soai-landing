@@ -1,6 +1,39 @@
 {
-  "generated_at": "2026-05-13T05:50:29.267779Z",
+  "generated_at": "2026-05-14T05:49:39.668173Z",
   "events": [
+    {
+      "id": "7a89e3480aad6679cca92261e849332c",
+      "title": "香港科技園公司恭賀園區公司劑泰科技成功在港交所上市(Content available in Chinese only)",
+      "start_time": "13 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-congratulates-metistechbio-successful-listing-on-hkex",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5a9d2495866b88cdfebcbfa5b02c4bb6",
+      "title": "HKSTP and Avnet Invite Global Startups to New AI Hardware Launchpad",
+      "start_time": "12 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/avnet",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5f1e3b099d2b8bf13e8c8e76514d1a14",
+      "title": "香港科技園公司與中國醫藥創新促進會簽署合作備忘錄(Content available in Chinese only)",
+      "start_time": "12 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-signed-an-MOU-with-PhiRDA",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "8d44b5536a75fa8b62bd53c2a3a5d073",
       "title": "Google Hong Kong and HKSTP Launch Second Cohort of Rocketing AI Co-incubation Program",
