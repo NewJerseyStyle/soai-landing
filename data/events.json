@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-05-20T06:09:40.861514Z",
+  "generated_at": "2026-05-21T06:11:59.468185Z",
   "events": [
+    {
+      "id": "2d34f960ec0d81e7f19045f3e49cb563",
+      "title": "HKSTP and PhIRDA Sign MoU to Support Mainland Biopharma Going Global via Hong Kong",
+      "start_time": "12 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-signed-an-MOU-with-PhiRDA",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "5a9d2495866b88cdfebcbfa5b02c4bb6",
       "title": "HKSTP and Avnet Invite Global Startups to New AI Hardware Launchpad",
@@ -19,17 +30,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Joins-Medical-Fair-and-Asia-Summit-on-Global-Health-with-38-Park-Companies",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "5f1e3b099d2b8bf13e8c8e76514d1a14",
-      "title": "香港科技園公司與中國醫藥創新促進會簽署合作備忘錄(Content available in Chinese only)",
-      "start_time": "12 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-signed-an-MOU-with-PhiRDA",
       "tags": [
         "AI"
       ]
