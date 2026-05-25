@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T06:03:24.072211Z",
+  "generated_at": "2026-05-25T06:37:04.237333Z",
   "events": [
     {
       "id": "8aa81fd6491282606b7ad59bacd36254",
@@ -206,6 +206,138 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-leads-13-park-companies-to-CHTF-2025",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "8e5258bb56023ef73e8b90dc53e11e5c",
+      "title": "Founder",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_aYzzm1F9hZM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "0d3bad072916e9d933cbc34828e0f234",
+      "title": "Long",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_gS_HYkNSquI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "4b1feb9ad0f1f7911752a28c606a9d25",
+      "title": "Remotion Your Videos",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_Dh6XudV0F2c",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "977d656b4204eb9a7bcfb0aedfc4e0d1",
+      "title": "Tamir",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_E-yWEGlcDgo",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "377379985dde762ac8af538f7d9335e6",
+      "title": "Nixus: Orchestrating Agentic Infrastructure",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_v6WPm4wWO9M",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "696addc4d5c0201da62eeeff52e6b0b9",
+      "title": "EvoFit: Cross-Cultural AI Fitness Coach",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_dvIFWxBl4TM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "b44787028c13d6c9233a3e92963d2299",
+      "title": "OpenClaw: Local LLM Home Assistant",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4b4SPWWvW4A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9431628f80def8821d7e5d7daf354d48",
+      "title": "Bugtrace AI: Deterministic Web Pentesting",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_pv9QZncWqV0",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "140a5a6016aad6424f30be0938928628",
+      "title": "AI Cantonese Lyric Generator",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_HILPJuLq-Q8",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "7999735de94914710f21777f6be8a1e6",
+      "title": "Vibe Coding: Non-Coder AI Apps",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_3XIaboEtPiM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "2823f558e6977212be5cedc30d039ea6",
+      "title": "SpeakReady: AI-Powered App Building",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_XloItk_-8gA",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "b1772fac5376bbf189d8bf8b1b6c8332",
+      "title": "Reconstructing Memories with 3D Gaussian Splatting",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_zmGEdhKSUks",
       "tags": [
         "AI"
       ]
