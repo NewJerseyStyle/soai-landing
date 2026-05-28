@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-27T06:22:37.998905Z",
+  "generated_at": "2026-05-28T06:14:09.899207Z",
   "events": [
     {
-      "id": "6c64c2c23eb064848f953475de7488ac",
+      "id": "ac9e620c089fbb82faaa5749c3f0db3a",
       "title": "HKSTP Welcomes the Government’s Appointment of Ms Cordelia Chung as Chairman",
       "start_time": "27 May 2026",
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/welcoming-the-governments-appointment-of-ms-cordelia-chung-as-chairman-pdf",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Welcomes-the-Governments-Appointment-of-Ms-Cordelia-Chung-as-Chairman",
       "tags": [
         "AI"
       ]
@@ -19,6 +19,17 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hong-kong-first-astronaut",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "ba8477fd7af26a984a79dc4241045b21",
+      "title": "HKSTP Joins Medical Fair and Asia Summit on Global Health with 38 Park Companies",
+      "start_time": "12 May 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Joins-Medical-Fair-and-Asia-Summit-on-Global-Health-with-38-Park-Companies",
       "tags": [
         "AI"
       ]
@@ -41,17 +52,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/avnet",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "ba8477fd7af26a984a79dc4241045b21",
-      "title": "HKSTP Joins Medical Fair and Asia Summit on Global Health with 38 Park Companies",
-      "start_time": "12 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Joins-Medical-Fair-and-Asia-Summit-on-Global-Health-with-38-Park-Companies",
       "tags": [
         "AI"
       ]
