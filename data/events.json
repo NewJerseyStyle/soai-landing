@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T06:14:09.899207Z",
+  "generated_at": "2026-05-29T06:15:36.825723Z",
   "events": [
     {
       "id": "ac9e620c089fbb82faaa5749c3f0db3a",
@@ -277,8 +277,8 @@
       ]
     },
     {
-      "id": "696addc4d5c0201da62eeeff52e6b0b9",
-      "title": "EvoFit: Cross-Cultural AI Fitness Coach",
+      "id": "57ac933d69ccb33f2644a479561604c1",
+      "title": "EvoFit: Building a Cross-Cultural AI Fitness Coach That Bridges Easte…",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -288,8 +288,8 @@
       ]
     },
     {
-      "id": "b44787028c13d6c9233a3e92963d2299",
-      "title": "OpenClaw: Local LLM Home Assistant",
+      "id": "cd93e0f1b69363cbc3ce569b0ebda268",
+      "title": "Learnings of integrating OpenClaw & Local LLM into my Home Assistant …",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -299,8 +299,8 @@
       ]
     },
     {
-      "id": "9431628f80def8821d7e5d7daf354d48",
-      "title": "Bugtrace AI: Deterministic Web Pentesting",
+      "id": "539a180c873b77bcaf3287088d6a26fa",
+      "title": "Bugtrace AI: Building the First Deterministic Agentic Framework for R…",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -310,8 +310,8 @@
       ]
     },
     {
-      "id": "140a5a6016aad6424f30be0938928628",
-      "title": "AI Cantonese Lyric Generator",
+      "id": "bd7aac4d664daa517fb283ea332c8fe2",
+      "title": "The first cantonese lyrics ai in HK",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -321,8 +321,8 @@
       ]
     },
     {
-      "id": "7999735de94914710f21777f6be8a1e6",
-      "title": "Vibe Coding: Non-Coder AI Apps",
+      "id": "dbc5fd97d4f75fa72f999de736ca4d45",
+      "title": "From Abacus to AI: Small Potatoes, Big Results",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -332,8 +332,8 @@
       ]
     },
     {
-      "id": "2823f558e6977212be5cedc30d039ea6",
-      "title": "SpeakReady: AI-Powered App Building",
+      "id": "74ac732a922f5fb61858a7b943998606",
+      "title": "How I Built a Presentation Coaching App in 4 days — With AI as My Eng…",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
