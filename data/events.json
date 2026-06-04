@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-03T06:54:21.612017Z",
+  "generated_at": "2026-06-04T06:43:53.742230Z",
   "events": [
+    {
+      "id": "5debb9819915c603a6a3e921c06c4565",
+      "title": "Return Helper Closes US$4 Million Series A to Accelerate AI-Driven Cross-Border Returns Platform",
+      "start_time": "01 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Return-Helper-Closes-USD4-Million-Series-A",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "ac9e620c089fbb82faaa5749c3f0db3a",
       "title": "HKSTP Welcomes the Government’s Appointment of Ms Cordelia Chung as Chairman",
@@ -217,138 +228,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-leads-13-park-companies-to-CHTF-2025",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "8e5258bb56023ef73e8b90dc53e11e5c",
-      "title": "Founder",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_aYzzm1F9hZM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "0d3bad072916e9d933cbc34828e0f234",
-      "title": "Long",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_gS_HYkNSquI",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "4b1feb9ad0f1f7911752a28c606a9d25",
-      "title": "Remotion Your Videos",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_Dh6XudV0F2c",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "977d656b4204eb9a7bcfb0aedfc4e0d1",
-      "title": "Tamir",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_E-yWEGlcDgo",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "377379985dde762ac8af538f7d9335e6",
-      "title": "Nixus: Orchestrating Agentic Infrastructure",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_v6WPm4wWO9M",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "57ac933d69ccb33f2644a479561604c1",
-      "title": "EvoFit: Building a Cross-Cultural AI Fitness Coach That Bridges Easte…",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_dvIFWxBl4TM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "cd93e0f1b69363cbc3ce569b0ebda268",
-      "title": "Learnings of integrating OpenClaw & Local LLM into my Home Assistant …",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4b4SPWWvW4A",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "539a180c873b77bcaf3287088d6a26fa",
-      "title": "Bugtrace AI: Building the First Deterministic Agentic Framework for R…",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_pv9QZncWqV0",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "12ea7741e221fc70ced5b2425bb8ce8f",
-      "title": "The first cantonese lyrics ai in HK https://cantolyricsai.com/",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_HILPJuLq-Q8",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "dbc5fd97d4f75fa72f999de736ca4d45",
-      "title": "From Abacus to AI: Small Potatoes, Big Results",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_3XIaboEtPiM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "74ac732a922f5fb61858a7b943998606",
-      "title": "How I Built a Presentation Coaching App in 4 days — With AI as My Eng…",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_XloItk_-8gA",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "b1772fac5376bbf189d8bf8b1b6c8332",
-      "title": "Reconstructing Memories with 3D Gaussian Splatting",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_zmGEdhKSUks",
       "tags": [
         "AI"
       ]
