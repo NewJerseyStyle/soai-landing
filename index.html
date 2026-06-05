@@ -196,10 +196,26 @@
         .reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
         .reveal.active { opacity: 1; transform: translateY(0); }
 
+        
+        /* ── Poster images ── */
+        .poster-img {
+            cursor: zoom-in;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            display: block;
+            float: left;
+            max-width: 30%;
+            margin: 2rem;
+        }
+        .poster-img:hover {
+            opacity: 0.85;
+            transform: scale(1.03);
+        }
+ 
         @media (max-width: 900px) {
             .hero { grid-template-columns: 1fr; }
             .strategy-grid { grid-template-columns: 1fr; }
             footer { flex-direction: column; align-items: flex-start; gap: 40px; }
+            .poster-img { max-width: 80%; float: none; }
         }
     </style>
 </head>
@@ -274,6 +290,21 @@
             <!-- Luma Events -->
             <section id="events" class="luma-section reveal">
                 <span class="section-label">Upcoming Events 活動預告</span>
+                <img
+                    src="assets/poster_1.jpeg"
+                    alt="Event poster 1"
+                    class="poster-img"
+                    data-full="assets/poster_1.jpeg"
+                >
+                <img
+                    src="assets/poster_2.jpeg"
+                    alt="Event poster 2"
+                    class="poster-img"
+                    data-full="assets/poster_2.jpeg"
+                >
+            </section>
+            <section id="events" class="luma-section reveal">
+                <span class="section-label">News</span>
                 <div id="events-list" class="events-list">
                     <div class="events-status">Loading events…</div>
                 </div>
