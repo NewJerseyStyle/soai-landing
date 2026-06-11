@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-10T06:25:30.212635Z",
+  "generated_at": "2026-06-11T06:50:35.602768Z",
   "events": [
+    {
+      "id": "f601af256cdf3812e82a071898b7fc81",
+      "title": "AI Water Tank Cleaning Robot Adopted by Government, Exemplifying Hong Kong Public-Private Collaboration",
+      "start_time": "09 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkcrc-ai-water-tank-cleaning-robot",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "5debb9819915c603a6a3e921c06c4565",
       "title": "Return Helper Closes US$4 Million Series A to Accelerate AI-Driven Cross-Border Returns Platform",
@@ -217,17 +228,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp_unicorn_smartmore_claimed_the_highest_honour_at_the_hkict_awards_2025",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "c7affbaeceb04de4e343b538247e92f0",
-      "title": "HKSTP Showcases Innovation Strength with 13 Park Companies at the China Hi-Tech Fair",
-      "start_time": "14 Nov 2025",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-leads-13-park-companies-to-CHTF-2025",
       "tags": [
         "AI"
       ]
