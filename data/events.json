@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-17T07:11:49.483133Z",
+  "generated_at": "2026-06-18T06:53:50.973281Z",
   "events": [
+    {
+      "id": "5479d6f5d62ae1a779ce97ba6a79f8af",
+      "title": "HKSTP and SenseTime Join Forces to Build Hong Kong's Largest Domestic AI Data Centre",
+      "start_time": "16 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-SenseTime-to-build-Hong-Kong-Largest-Domestic-AIDC",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "f601af256cdf3812e82a071898b7fc81",
       "title": "AI Water Tank Cleaning Robot Adopted by Government, Exemplifying Hong Kong Public-Private Collaboration",
@@ -321,8 +332,8 @@
       ]
     },
     {
-      "id": "12ea7741e221fc70ced5b2425bb8ce8f",
-      "title": "The first cantonese lyrics ai in HK https://cantolyricsai.com/",
+      "id": "5e6dce14d0d0afac4f7893f02cf40019",
+      "title": "Cantolyricsai: Cantonese Lyrics AI",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -332,8 +343,8 @@
       ]
     },
     {
-      "id": "dbc5fd97d4f75fa72f999de736ca4d45",
-      "title": "From Abacus to AI: Small Potatoes, Big Results",
+      "id": "7999735de94914710f21777f6be8a1e6",
+      "title": "Vibe Coding: Non-Coder AI Apps",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -343,8 +354,8 @@
       ]
     },
     {
-      "id": "74ac732a922f5fb61858a7b943998606",
-      "title": "How I Built a Presentation Coaching App in 4 days — With AI as My Eng…",
+      "id": "2823f558e6977212be5cedc30d039ea6",
+      "title": "SpeakReady: AI-Powered App Building",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -354,8 +365,8 @@
       ]
     },
     {
-      "id": "b1772fac5376bbf189d8bf8b1b6c8332",
-      "title": "Reconstructing Memories with 3D Gaussian Splatting",
+      "id": "88ff80ce439681f9338daac56e064e8a",
+      "title": "3DGS: Reconstructing Memories in 3D",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
