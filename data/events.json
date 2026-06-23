@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-22T07:25:54.977530Z",
+  "generated_at": "2026-06-23T06:08:25.469421Z",
   "events": [
+    {
+      "id": "c765b6cd2c174bf3e86fdd87f0812732",
+      "title": "National AI Monitoring Sets Up RD and Pilot Production Base at Advanced Manufacturing Centre in Tseung Kwan O InnoPark",
+      "start_time": "16 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/national-ai-monitoring",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "5479d6f5d62ae1a779ce97ba6a79f8af",
       "title": "HKSTP and SenseTime Join Forces to Build Hong Kong's Largest Domestic AI Data Centre",
@@ -228,17 +239,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-extends-condolences-and-support-to-people-affected-by-tai-po-fire-incident",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "961bd829e1e4d1b4a60c8b0e1637acfe",
-      "title": "HKSTPs AI Unicorn SmartMore Claimed the Highest Honour at the Hong Kong ICT Awards 2025 Science Park Community Secures a Total of 31 Awards",
-      "start_time": "22 Nov 2025",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp_unicorn_smartmore_claimed_the_highest_honour_at_the_hkict_awards_2025",
       "tags": [
         "AI"
       ]
