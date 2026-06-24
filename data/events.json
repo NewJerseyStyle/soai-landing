@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T06:08:25.469421Z",
+  "generated_at": "2026-06-24T06:08:07.001669Z",
   "events": [
     {
       "id": "c765b6cd2c174bf3e86fdd87f0812732",
@@ -228,17 +228,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp_makes_strategic_investment_in_singapore_technology_company_vizzio",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "3352d6d9edf2fde0d8c533bc3ec49a6f",
-      "title": "HKSTP Extends Condolences and Support to People Affected by Tai Po Fire Incident",
-      "start_time": "27 Nov 2025",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-extends-condolences-and-support-to-people-affected-by-tai-po-fire-incident",
       "tags": [
         "AI"
       ]
