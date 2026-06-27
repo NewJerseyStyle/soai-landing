@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-26T06:12:15.383985Z",
+  "generated_at": "2026-06-27T05:54:27.331188Z",
   "events": [
+    {
+      "id": "651b05ed8a470f57d477f6d3963501e3",
+      "title": "FDA Clears PanopticAIs Contactless Respiratory Rate Measurement",
+      "start_time": "18 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/FDA-Clears-PanopticAIs-Contactless-Respiratory-Rate-Measurement",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "c765b6cd2c174bf3e86fdd87f0812732",
       "title": "National AI Monitoring Sets Up RD and Pilot Production Base at Advanced Manufacturing Centre in Tseung Kwan O InnoPark",
