@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T06:19:39.804200Z",
+  "generated_at": "2026-06-29T06:49:45.962357Z",
   "events": [
     {
       "id": "651b05ed8a470f57d477f6d3963501e3",
@@ -321,8 +321,8 @@
       ]
     },
     {
-      "id": "57ac933d69ccb33f2644a479561604c1",
-      "title": "EvoFit: Building a Cross-Cultural AI Fitness Coach That Bridges Easte…",
+      "id": "696addc4d5c0201da62eeeff52e6b0b9",
+      "title": "EvoFit: Cross-Cultural AI Fitness Coach",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -332,8 +332,8 @@
       ]
     },
     {
-      "id": "cd93e0f1b69363cbc3ce569b0ebda268",
-      "title": "Learnings of integrating OpenClaw & Local LLM into my Home Assistant …",
+      "id": "b44787028c13d6c9233a3e92963d2299",
+      "title": "OpenClaw: Local LLM Home Assistant",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
@@ -343,8 +343,8 @@
       ]
     },
     {
-      "id": "539a180c873b77bcaf3287088d6a26fa",
-      "title": "Bugtrace AI: Building the First Deterministic Agentic Framework for R…",
+      "id": "9431628f80def8821d7e5d7daf354d48",
+      "title": "Bugtrace AI: Deterministic Web Pentesting",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
