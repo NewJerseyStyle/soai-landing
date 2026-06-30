@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T06:49:45.962357Z",
+  "generated_at": "2026-06-30T06:13:44.862597Z",
   "events": [
     {
       "id": "651b05ed8a470f57d477f6d3963501e3",
@@ -217,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/waic-up-2026",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "fc066f5aea70a06d7daafb019fb37778",
-      "title": "HKSTP Congratulates Park Company Insilico Medicine on Successful Listing on HKEX Harnessing AI to Accelerate Drug Discovery and Empower Human Health",
-      "start_time": "30 Dec 2025",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-congratulates-park-company-insilico-medicine-on-successful-listing-on-hkex",
       "tags": [
         "AI"
       ]
