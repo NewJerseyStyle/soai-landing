@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-07-15T04:52:32.997815Z",
+  "generated_at": "2026-07-16T05:14:22.448603Z",
   "events": [
+    {
+      "id": "9ee827e37e0b4ed6c25a9ee038dceef2",
+      "title": "HKSTP Kicks Off Summer Talent Fest 2026 and Launches AI for All Inclusive Programme",
+      "start_time": "14 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Kicks-Off-Summer-Talent-Fest-2026",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "651b05ed8a470f57d477f6d3963501e3",
       "title": "FDA Clears PanopticAIs Contactless Respiratory Rate Measurement",
