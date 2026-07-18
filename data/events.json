@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:14:53.872163Z",
+  "generated_at": "2026-07-18T04:49:34.707160Z",
   "events": [
     {
       "id": "9ee827e37e0b4ed6c25a9ee038dceef2",
@@ -217,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-hosts-inaugural-ai-for-empowering-learning-and-teaching-funding-programme-seminar",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "a3f02ed8458108ae929ad249e6e2127c",
-      "title": "2026 WAIC UP! Global Summit Makes Hong Kong Debut HKSTP As Exclusive Strategic Partner",
-      "start_time": "16 Jan 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/waic-up-2026",
       "tags": [
         "AI"
       ]
