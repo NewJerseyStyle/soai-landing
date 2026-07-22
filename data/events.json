@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-07-21T05:21:50.239105Z",
+  "generated_at": "2026-07-22T05:20:33.963838Z",
   "events": [
+    {
+      "id": "5f60337fdfacb85ba0c00e644b3aa068",
+      "title": "HKSTP Powers Tech Companies' Go Global at WAIC 2026",
+      "start_time": "20 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Powers-Tech-Companies-Go-Global-at-WAIC-2026",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "9ee827e37e0b4ed6c25a9ee038dceef2",
       "title": "HKSTP Kicks Off Summer Talent Fest 2026 and Launches AI for All Inclusive Programme",
@@ -206,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Cytiva-Day",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "8c3afb49ea7a69addfd7fd34297c9405",
-      "title": "HKSTP Hosts Inaugural AI for Empowering Learning and Teaching Funding Programme Seminar",
-      "start_time": "28 Jan 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-hosts-inaugural-ai-for-empowering-learning-and-teaching-funding-programme-seminar",
       "tags": [
         "AI"
       ]
