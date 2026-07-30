@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-07-29T05:22:44.647273Z",
+  "generated_at": "2026-07-30T05:09:58.708969Z",
   "events": [
+    {
+      "id": "5d63960249bddbcdcda9e1124e89bf62",
+      "title": "HKSTP and CSD renew MOU to deepen sustainable development of Smart Prison",
+      "start_time": "27 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Renew-MoU-With-CSD",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "5f60337fdfacb85ba0c00e644b3aa068",
       "title": "HKSTP Powers Tech Companies' Go Global at WAIC 2026",
@@ -222,6 +233,28 @@
       ]
     },
     {
+      "id": "1e7d84698c93dd7b0836f028db50cd20",
+      "title": "J",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_b3Uv6gyaL6c",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "287e7f9bdafa9acaaeb3220f68adfa29",
+      "title": "Y",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_K2F2e_eF7B0",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "id": "7ac37cf8a771dfa76cb3707541dbb826",
       "title": "J",
       "start_time": null,
@@ -327,28 +360,6 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4b4SPWWvW4A",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "4ddbed7f4eac9110e178b9df44e3e6c7",
-      "title": "K",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_pv9QZncWqV0",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "a62ec5f423eb2a0e78f23c5fe3bb8183",
-      "title": "J",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_HILPJuLq-Q8",
       "tags": [
         "AI"
       ]
