@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T04:26:05.050437Z",
+  "generated_at": "2026-08-08T03:26:15.596068Z",
   "events": [
     {
       "id": "5d63960249bddbcdcda9e1124e89bf62",
@@ -217,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-career-fair-2026-reimagine-ai-plus",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "0694747e702ffc981abc01e469f8b9dd",
-      "title": "科技園公司夥拍全球生命科技領先企業思拓凡（Content available in Chinese only）",
-      "start_time": "05 Mar 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Cytiva-Day",
       "tags": [
         "AI"
       ]
