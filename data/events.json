@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-02T06:52:21.970956Z",
+  "generated_at": "2026-09-03T06:56:10.174982Z",
   "events": [
+    {
+      "id": "dbdfb6a82e86f958940950ce0dddb0dc",
+      "title": "HKSTP Youth InnoExplorers Programme Brings IT Education Beyond the Campus through AI Carnival",
+      "start_time": "14 Aug 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-SKH-AI-Carnival",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "5d63960249bddbcdcda9e1124e89bf62",
       "title": "HKSTP and CSD renew MOU to deepen sustainable development of Smart Prison",
@@ -206,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-HKUST-Yuexiu-MoU-signing",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "daebb76fe08be7acda9512cdebf69c8c",
-      "title": "HKSTP Career Fair 2026 Rallies Hong Kong to \"Reimagine AI+\"",
-      "start_time": "17 Mar 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-career-fair-2026-reimagine-ai-plus",
       "tags": [
         "AI"
       ]
