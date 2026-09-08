@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-07T07:04:27.382213Z",
+  "generated_at": "2026-09-08T06:58:49.112578Z",
   "events": [
+    {
+      "id": "4a1e94c0d1338e45a8afa1e76ed8bc9d",
+      "title": "HKSTP and FHKI Co-organise Innopreneur Experience Journey Cohort 5 Empowering Youth to Explore AI and Future Careers",
+      "start_time": "02 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/fhki",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "dbdfb6a82e86f958940950ce0dddb0dc",
       "title": "HKSTP Youth InnoExplorers Programme Brings IT Education Beyond the Campus through AI Carnival",
@@ -206,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/connected-intelligence",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "6d42aea4a14ba343c95a11fb00f99e02",
-      "title": "香港科技園公司與越秀集團及香港科技大學簽署「穗港聯動科創平台」合作備忘錄 (Content available in Chinese only)",
-      "start_time": "18 Mar 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-HKUST-Yuexiu-MoU-signing",
       "tags": [
         "AI"
       ]
