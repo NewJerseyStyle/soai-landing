@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:08:11.687476Z",
+  "generated_at": "2026-09-10T07:04:15.861924Z",
   "events": [
     {
       "id": "a76206d88dc7c649e86292b633770281",
@@ -19,6 +19,17 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/fhki",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9d6cbb05510b13ad74fa3fe7b784834f",
+      "title": "HKSTP and CLP Power Drive Residential Electrification atSustainable Residential Living Conference",
+      "start_time": "20 Aug 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-CLP-Power-Drive-Residential-Electrification-at-Sustainable-Residential-Living-Conference",
       "tags": [
         "AI"
       ]
@@ -217,17 +228,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/AilsynBio-and-Dong-E-E-Jiao-Sign-Project-Cooperation-Agreement",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "6331dd9beb445c78a11df1a8af234a02",
-      "title": "HKSTP Parades the Power of Partnership Connecting Intelligence and Industries with AI and Robotics",
-      "start_time": "25 Mar 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/connected-intelligence",
       "tags": [
         "AI"
       ]
