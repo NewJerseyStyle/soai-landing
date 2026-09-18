@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-17T07:15:46.367908Z",
+  "generated_at": "2026-09-18T07:08:17.501714Z",
   "events": [
+    {
+      "id": "742e474397bb81e15723765ab85308f8",
+      "title": "科技園公司攜手越秀集團及科大啟用穗港科技和產業融合創新中心（廣州）(Content available in Chinese only)",
+      "start_time": "15 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-yuexiu-hkust-guangzhou-centre",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "12ce0b2c236f91c871e62157d2073871",
       "title": "HKSTP Grieves the Loss of Mr Tung Chee Hwa, Former Vice Chairman of CPPCC National Committee and First Chief Executive of HKSAR",
@@ -228,17 +239,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Chery-Hong-Kong-Innovation-Centre-Lands-in-Science-Park",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "93f7a37957c4929c256d47aaec686403",
-      "title": "AilsynBio and Dong-E-E-Jiao Sign Project Cooperation Agreement",
-      "start_time": "10 Apr 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/AilsynBio-and-Dong-E-E-Jiao-Sign-Project-Cooperation-Agreement",
       "tags": [
         "AI"
       ]
