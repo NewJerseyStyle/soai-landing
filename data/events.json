@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:57:46.442330Z",
+  "generated_at": "2026-09-30T08:07:01.539941Z",
   "events": [
     {
       "id": "742e474397bb81e15723765ab85308f8",
@@ -244,6 +244,39 @@
       ]
     },
     {
+      "id": "b5d57733e523970699e3293e469357ec",
+      "title": "B",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_E97RrmNTl4A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "6bbda89dee868416120ada688a7c6c34",
+      "title": "B",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_DkZBficStKM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9acad55762e4ddefb3b3a993fad69788",
+      "title": "J",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4v-XvqAKzWU",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "id": "694b8dcaafdb0f1766119b3e6847eb8a",
       "title": "I",
       "start_time": null,
@@ -338,39 +371,6 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_aYzzm1F9hZM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "9fc7964becd3c461f3c041327e2a0ad1",
-      "title": "L",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_gS_HYkNSquI",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "a5577015df04fa836928c98fd46d1e11",
-      "title": "G",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_Dh6XudV0F2c",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "58b973c62a7cb852807e9b150e69ce42",
-      "title": "S",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_E-yWEGlcDgo",
       "tags": [
         "AI"
       ]
