@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:30:08.431653Z",
+  "generated_at": "2026-10-06T08:39:10.420901Z",
   "events": [
     {
       "id": "7ba9830869043eea8a6b8ca210c7deae",
@@ -228,17 +228,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/google-coincubation",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "c935b756928b5a9aa2795771a5a8323a",
-      "title": "Lalamove展示「低空經濟監管沙盒」階段性成果(Content available in Chinese only)",
-      "start_time": "30 Apr 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Lalamove-Low-altitude-Economy-Regulatory-Sandbox-milestone-showcase",
       "tags": [
         "AI"
       ]
