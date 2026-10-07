@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:39:10.420901Z",
+  "generated_at": "2026-10-07T08:14:15.277120Z",
   "events": [
     {
       "id": "7ba9830869043eea8a6b8ca210c7deae",
@@ -217,17 +217,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/avnet",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "8d44b5536a75fa8b62bd53c2a3a5d073",
-      "title": "Google Hong Kong and HKSTP Launch Second Cohort of Rocketing AI Co-incubation Program",
-      "start_time": "06 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/google-coincubation",
       "tags": [
         "AI"
       ]
