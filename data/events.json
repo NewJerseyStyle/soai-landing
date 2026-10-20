@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:23:59.777649Z",
+  "generated_at": "2026-10-20T07:14:48.571831Z",
   "events": [
     {
       "id": "7ba9830869043eea8a6b8ca210c7deae",
@@ -222,6 +222,116 @@
       ]
     },
     {
+      "id": "a3c2a1da6df0bb371069f30f0ff55877",
+      "title": "Founder (May 7, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_aYzzm1F9hZM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "2f78703cf9b94190d7f0494d287a1184",
+      "title": "Long (May 7, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_gS_HYkNSquI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "da087d73815048d1aa6a0794f0d29e1c",
+      "title": "From Meow to Mastery: Building MathCat’s Adaptive Learning Platform (August 31, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_nk7cD0uzBpI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "a77322fa0b237a3716408d13b4de1358",
+      "title": "EvoFit: Building a Cross-Cultural AI Fitness Coach That Bridges Eastern Wellness and Western Exercise Science (April 29, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_dvIFWxBl4TM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "e8480f53e3c36a18084322d910adbfd4",
+      "title": "Building Graph Navigation Tool for the Visually Impaired (June 24, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_5Setv57KQwQ",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "1b916598ba4b3af9606fff5b850bb636",
+      "title": "Exploration of AI in Vision Accessibility (June 24, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_blAbox5WGOA",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "ef75f8514c85e3bc8d2f50241ab54601",
+      "title": "Learn Anything by Doing: An Agent That Teaches, a Grader That Can't Flatter You (August 31, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_9jqGP6qJZHg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c6360706e555adc6ab62119b3f146fb8",
+      "title": "Bugtrace AI: Building the First Deterministic Agentic Framework for Reliable Web Pentesting (April 29, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_pv9QZncWqV0",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "4e60410a0619b929ccc8e402bac17084",
+      "title": "Hearing the Room Across Language: Building Catch’s Realtime iPhone Interpreter (June 24, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_vLe9DwZ90cU",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "bceeb47558eb3cd2df2ad73c0195e5a8",
+      "title": "Canto101: Learn Cantonese with Karaoke & Interactive Role-Play. (July 29, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_b3Uv6gyaL6c",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "id": "bdf3a25a8fce2d84f29f5de798218e62",
       "title": "S",
       "start_time": null,
@@ -288,17 +398,6 @@
       ]
     },
     {
-      "id": "694b8dcaafdb0f1766119b3e6847eb8a",
-      "title": "I",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_9jqGP6qJZHg",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "id": "258cc312c3a4644cd7586b5eacba4ecf",
       "title": "M",
       "start_time": null,
@@ -310,45 +409,12 @@
       ]
     },
     {
-      "id": "ecb7efcad9d0d81f25b532ce6698f368",
-      "title": "N",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_nk7cD0uzBpI",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "1e7d84698c93dd7b0836f028db50cd20",
-      "title": "J",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_b3Uv6gyaL6c",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "id": "287e7f9bdafa9acaaeb3220f68adfa29",
       "title": "Y",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_K2F2e_eF7B0",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "7ac37cf8a771dfa76cb3707541dbb826",
-      "title": "J",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_blAbox5WGOA",
       "tags": [
         "AI"
       ]
