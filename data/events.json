@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:14:48.571831Z",
+  "generated_at": "2026-10-21T07:10:25.139891Z",
   "events": [
     {
       "id": "7ba9830869043eea8a6b8ca210c7deae",
@@ -206,17 +206,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-signed-an-MOU-with-PhiRDA",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "5a9d2495866b88cdfebcbfa5b02c4bb6",
-      "title": "HKSTP and Avnet Invite Global Startups to New AI Hardware Launchpad",
-      "start_time": "12 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/avnet",
       "tags": [
         "AI"
       ]
