@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:58:54.447035Z",
+  "generated_at": "2026-10-29T08:07:30.248594Z",
   "events": [
     {
       "id": "7c66c1645c15138a4441ef4275040225",
@@ -173,28 +173,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Return-Helper-Closes-USD4-Million-Series-A",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "ac9e620c089fbb82faaa5749c3f0db3a",
-      "title": "HKSTP Welcomes the Government’s Appointment of Ms Cordelia Chung as Chairman",
-      "start_time": "27 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Welcomes-the-Governments-Appointment-of-Ms-Cordelia-Chung-as-Chairman",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "ff7e2d343874492a8459e789ce2bb29e",
-      "title": "HKSTP Extends Warmest Congratulations to Dr Lai Ka Ying as Hong Kong's Inaugural Payload Expert",
-      "start_time": "23 May 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hong-kong-first-astronaut",
       "tags": [
         "AI"
       ]
