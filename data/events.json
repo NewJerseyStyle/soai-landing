@@ -1,6 +1,160 @@
 {
-  "generated_at": "2026-10-30T08:10:48.022704Z",
+  "generated_at": "2026-10-31T08:03:29.049961Z",
   "events": [
+    {
+      "id": "7c66c1645c15138a4441ef4275040225",
+      "title": "HKSTP and PCIM Asia Shanghai Host Power Electronics Innovation Across Asia Seminar",
+      "start_time": "16 Oct 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-PCIM-Asia-Shanghai-Strategic-Collaboration",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "7ba9830869043eea8a6b8ca210c7deae",
+      "title": "科技園公司聯同杭實集團深化低空經濟與商業航天產業協作 (Content available in Chinese only)",
+      "start_time": "29 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/hangzhou-innovation-centre",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "742e474397bb81e15723765ab85308f8",
+      "title": "科技園公司攜手越秀集團及科大啟用穗港科技和產業融合創新中心（廣州）(Content available in Chinese only)",
+      "start_time": "15 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/hkstp-yuexiu-hkust-guangzhou-centre",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "12ce0b2c236f91c871e62157d2073871",
+      "title": "HKSTP Grieves the Loss of Mr Tung Chee Hwa, Former Vice Chairman of CPPCC National Committee and First Chief Executive of HKSAR",
+      "start_time": "10 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/in-memory-of-mr-Tung-Chee-Hwa",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c00c1e47c745c49accacb41642a99d24",
+      "title": "Tianyu Hong Kong Partners with Granyet Care Group to Develop a Comprehensive AI Elderly Home Management System",
+      "start_time": "08 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/Tianyu-MoU",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "4a1e94c0d1338e45a8afa1e76ed8bc9d",
+      "title": "HKSTP and FHKI Co-organise Innopreneur Experience Journey Cohort 5 Empowering Youth to Explore AI and Future Careers",
+      "start_time": "02 Sep 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/fhki",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9d6cbb05510b13ad74fa3fe7b784834f",
+      "title": "HKSTP and CLP Power Drive Residential Electrification atSustainable Residential Living Conference",
+      "start_time": "20 Aug 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-CLP-Power-Drive-Residential-Electrification-at-Sustainable-Residential-Living-Conference",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "dbdfb6a82e86f958940950ce0dddb0dc",
+      "title": "HKSTP Youth InnoExplorers Programme Brings IT Education Beyond the Campus through AI Carnival",
+      "start_time": "14 Aug 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-SKH-AI-Carnival",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5d63960249bddbcdcda9e1124e89bf62",
+      "title": "HKSTP and CSD renew MOU to deepen sustainable development of Smart Prison",
+      "start_time": "27 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Renew-MoU-With-CSD",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5f60337fdfacb85ba0c00e644b3aa068",
+      "title": "HKSTP Powers Tech Companies' Go Global at WAIC 2026",
+      "start_time": "20 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Powers-Tech-Companies-Go-Global-at-WAIC-2026",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9ee827e37e0b4ed6c25a9ee038dceef2",
+      "title": "HKSTP Kicks Off Summer Talent Fest 2026 and Launches AI for All Inclusive Programme",
+      "start_time": "14 Jul 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Kicks-Off-Summer-Talent-Fest-2026",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "651b05ed8a470f57d477f6d3963501e3",
+      "title": "FDA Clears PanopticAIs Contactless Respiratory Rate Measurement",
+      "start_time": "18 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/FDA-Clears-PanopticAIs-Contactless-Respiratory-Rate-Measurement",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c765b6cd2c174bf3e86fdd87f0812732",
+      "title": "National AI Monitoring Sets Up RD and Pilot Production Base at Advanced Manufacturing Centre in Tseung Kwan O InnoPark",
+      "start_time": "16 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/national-ai-monitoring",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5479d6f5d62ae1a779ce97ba6a79f8af",
+      "title": "HKSTP and SenseTime Join Forces to Build Hong Kong's Largest Domestic AI Data Centre",
+      "start_time": "16 Jun 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-SenseTime-to-build-Hong-Kong-Largest-Domestic-AIDC",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "a3c2a1da6df0bb371069f30f0ff55877",
       "title": "Founder (May 7, 2026)",
