@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:03:29.049961Z",
+  "generated_at": "2026-11-01T08:50:00.830728Z",
   "events": [
     {
       "id": "7c66c1645c15138a4441ef4275040225",
@@ -217,6 +217,17 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_b3Uv6gyaL6c",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5a3063bef30e0e6be0254b1199c92f79",
+      "title": "J",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_UwdXPceQsmY",
       "tags": [
         "AI"
       ]
