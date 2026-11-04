@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:05:37.064095Z",
+  "generated_at": "2026-11-04T08:42:37.149521Z",
   "events": [
     {
       "id": "7c66c1645c15138a4441ef4275040225",
@@ -140,17 +140,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/national-ai-monitoring",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "5479d6f5d62ae1a779ce97ba6a79f8af",
-      "title": "HKSTP and SenseTime Join Forces to Build Hong Kong's Largest Domestic AI Data Centre",
-      "start_time": "16 Jun 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-and-SenseTime-to-build-Hong-Kong-Largest-Domestic-AIDC",
       "tags": [
         "AI"
       ]
