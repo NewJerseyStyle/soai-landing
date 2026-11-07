@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-06T08:58:45.004556Z",
+  "generated_at": "2026-11-07T08:26:39.311068Z",
   "events": [
+    {
+      "id": "f55479f368e3a943eadeb22b45a74fdf",
+      "title": "HKSTP Partners to Power the Next Frontier of AI-enabled Financeat FinTech Week x StartmeupHK Festival 2026",
+      "start_time": "02 Nov 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-at-FinTech-Week-2026",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "7c66c1645c15138a4441ef4275040225",
       "title": "HKSTP and PCIM Asia Shanghai Host Power Electronics Innovation Across Asia Seminar",
@@ -129,17 +140,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/FDA-Clears-PanopticAIs-Contactless-Respiratory-Rate-Measurement",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "c765b6cd2c174bf3e86fdd87f0812732",
-      "title": "National AI Monitoring Sets Up RD and Pilot Production Base at Advanced Manufacturing Centre in Tseung Kwan O InnoPark",
-      "start_time": "16 Jun 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/all-news/national-ai-monitoring",
       "tags": [
         "AI"
       ]
