@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T08:26:39.311068Z",
+  "generated_at": "2026-11-08T08:40:17.040890Z",
   "events": [
     {
       "id": "f55479f368e3a943eadeb22b45a74fdf",
@@ -145,23 +145,12 @@
       ]
     },
     {
-      "id": "a3c2a1da6df0bb371069f30f0ff55877",
-      "title": "Founder (May 7, 2026)",
+      "id": "1b916598ba4b3af9606fff5b850bb636",
+      "title": "Exploration of AI in Vision Accessibility (June 24, 2026)",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_aYzzm1F9hZM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "2f78703cf9b94190d7f0494d287a1184",
-      "title": "Long (May 7, 2026)",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_gS_HYkNSquI",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_blAbox5WGOA",
       "tags": [
         "AI"
       ]
@@ -173,17 +162,6 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_5Setv57KQwQ",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "1b916598ba4b3af9606fff5b850bb636",
-      "title": "Exploration of AI in Vision Accessibility (June 24, 2026)",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_blAbox5WGOA",
       "tags": [
         "AI"
       ]
@@ -206,6 +184,39 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_b3Uv6gyaL6c",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "da087d73815048d1aa6a0794f0d29e1c",
+      "title": "From Meow to Mastery: Building MathCat’s Adaptive Learning Platform (August 31, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_nk7cD0uzBpI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "cb9fb69b0bdff71b3e8830ff21404082",
+      "title": "Schema through the chain: one contract intact across 3+ levels of multi-agent delegation (September 29, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_DkZBficStKM",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "af7d2d2bd8abddb9040d6d0d79b3a1bb",
+      "title": "How I made a corporate cybersecurity strategy using AI (August 31, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_l6qAXPd6cCk",
       "tags": [
         "AI"
       ]
@@ -266,17 +277,6 @@
       ]
     },
     {
-      "id": "6bbda89dee868416120ada688a7c6c34",
-      "title": "B",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_DkZBficStKM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "id": "9acad55762e4ddefb3b3a993fad69788",
       "title": "J",
       "start_time": null,
@@ -294,28 +294,6 @@
       "location": "Hong Kong",
       "source": "AI Tinkerers",
       "url": "https://hong-kong.aitinkerers.org/talks/rsvp_9jqGP6qJZHg",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "258cc312c3a4644cd7586b5eacba4ecf",
-      "title": "M",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_l6qAXPd6cCk",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "ecb7efcad9d0d81f25b532ce6698f368",
-      "title": "N",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_nk7cD0uzBpI",
       "tags": [
         "AI"
       ]
