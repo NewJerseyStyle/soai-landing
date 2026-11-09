@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-08T08:40:17.040890Z",
+  "generated_at": "2026-11-09T09:16:50.810765Z",
   "events": [
+    {
+      "id": "86b9d1a5e2e70dfb192b1484a22924c7",
+      "title": "科技園主動對接國家「十五五」創科方向 共建浙港跨境協作(Content only available in Chinese)",
+      "start_time": "06 Nov 2026",
+      "location": "Hong Kong Science Park",
+      "source": "HKSTP",
+      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-signs-MoU-with-CICO",
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "id": "f55479f368e3a943eadeb22b45a74fdf",
       "title": "HKSTP Partners to Power the Next Frontier of AI-enabled Financeat FinTech Week x StartmeupHK Festival 2026",
@@ -129,17 +140,6 @@
       "location": "Hong Kong Science Park",
       "source": "HKSTP",
       "url": "https://www.hkstp.org/en/park-life/news-and-events/news/HKSTP-Kicks-Off-Summer-Talent-Fest-2026",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "651b05ed8a470f57d477f6d3963501e3",
-      "title": "FDA Clears PanopticAIs Contactless Respiratory Rate Measurement",
-      "start_time": "18 Jun 2026",
-      "location": "Hong Kong Science Park",
-      "source": "HKSTP",
-      "url": "https://www.hkstp.org/en/park-life/news-and-events/news/FDA-Clears-PanopticAIs-Contactless-Respiratory-Rate-Measurement",
       "tags": [
         "AI"
       ]
