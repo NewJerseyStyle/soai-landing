@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:48:51.098859Z",
+  "generated_at": "2026-11-19T09:57:26.124606Z",
   "events": [
     {
       "id": "86b9d1a5e2e70dfb192b1484a22924c7",
@@ -167,6 +167,50 @@
       ]
     },
     {
+      "id": "18720ab1ce679d777c1f235f4512c535",
+      "title": "Separating Real Errors from False Alarms: Evidence-Chain Verification for Financial Disclosure (November 18, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_2iL7SNd2JbI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "ef75f8514c85e3bc8d2f50241ab54601",
+      "title": "Learn Anything by Doing: An Agent That Teaches, a Grader That Can't Flatter You (August 31, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_9jqGP6qJZHg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "9cb478a67d73e0e29be12013e9cf232c",
+      "title": "Inside Ringbook: MCP, chat &amp; focused AI One permission boundary (November 18, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_vw-F-DJrnnw",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5850e2d85c44f5dac05d66c1b480a7ff",
+      "title": "ScrollPilot: From Scattered AI Conversations to Personal Workspace (September 29, 2026)",
+      "start_time": null,
+      "location": "Hong Kong",
+      "source": "AI Tinkerers",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4v-XvqAKzWU",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "id": "4e60410a0619b929ccc8e402bac17084",
       "title": "Hearing the Room Across Language: Building Catch’s Realtime iPhone Interpreter (June 24, 2026)",
       "start_time": null,
@@ -189,34 +233,23 @@
       ]
     },
     {
-      "id": "da087d73815048d1aa6a0794f0d29e1c",
-      "title": "From Meow to Mastery: Building MathCat’s Adaptive Learning Platform (August 31, 2026)",
+      "id": "6b44565627d44eb777386b065ddf7a83",
+      "title": "K",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_nk7cD0uzBpI",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_A_kAhDn_h2M",
       "tags": [
         "AI"
       ]
     },
     {
-      "id": "cb9fb69b0bdff71b3e8830ff21404082",
-      "title": "Schema through the chain: one contract intact across 3+ levels of multi-agent delegation (September 29, 2026)",
+      "id": "0cb49f865969b4e6472a2de8003a8170",
+      "title": "A",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_DkZBficStKM",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "af7d2d2bd8abddb9040d6d0d79b3a1bb",
-      "title": "How I made a corporate cybersecurity strategy using AI (August 31, 2026)",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_l6qAXPd6cCk",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_bDp3hxYCk_Q",
       "tags": [
         "AI"
       ]
@@ -277,34 +310,12 @@
       ]
     },
     {
-      "id": "9acad55762e4ddefb3b3a993fad69788",
-      "title": "J",
+      "id": "6bbda89dee868416120ada688a7c6c34",
+      "title": "B",
       "start_time": null,
       "location": "Hong Kong",
       "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_4v-XvqAKzWU",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "694b8dcaafdb0f1766119b3e6847eb8a",
-      "title": "I",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_9jqGP6qJZHg",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "id": "287e7f9bdafa9acaaeb3220f68adfa29",
-      "title": "Y",
-      "start_time": null,
-      "location": "Hong Kong",
-      "source": "AI Tinkerers",
-      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_K2F2e_eF7B0",
+      "url": "https://hong-kong.aitinkerers.org/talks/rsvp_DkZBficStKM",
       "tags": [
         "AI"
       ]
